@@ -5,6 +5,8 @@
 ember-cli-template-lint will lint your templates and add a test for each  asserting
 that all style rules have been satisfied.
 
+
+
 For example, given the rule `bare-strings` is enabled, this template would be
 in violation:
 
@@ -23,6 +25,8 @@ To install ember-cli-template-lint
 ```
 ember install ember-cli-template-lint
 ```
+
+__Ember CLI >= 2.4.2 is required for linting templates__
 
 ## Configuration
 
